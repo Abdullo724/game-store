@@ -1,2 +1,11 @@
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu ul {
+  display: flex;
+  gap: 20px;
 }
