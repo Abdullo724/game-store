@@ -1,0 +1,42 @@
+.slide-item {
+  position: relative;
+  height: 250px;
+  cursor: pointer;
+  transition: 300ms ease;
+  border-radius: 12px;
+}
+
+.slide-item:hover {
+  transform: scale(1.05);
+  transition: 300ms ease;
+}
+
+.slide-item .game-img {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  /* filter: brightness(0.5); */
+  height: 100%;
+  width: 100%;
+}
+
+.info {
+  position: relative;
+  padding: 8px;
+  background: linear-gradient(to top, black, transparent);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.info p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.info h2 {
+  font-size: 20px;
+}

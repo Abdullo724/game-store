@@ -4,7 +4,9 @@ import "./styles.css";
 export const Header = () => {
   return (
     <header className="header">
-      <h1 className="header-title">Game Store</h1>
+      <Link href="/">
+        <h1 className="header-title">Game Store</h1>
+      </Link>
       <nav className="menu">
         <ul>
           <Link href="/">
