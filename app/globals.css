@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -26,6 +26,7 @@ body {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1172px;
   margin: 0 auto;
+  padding: 0 10px;
 }

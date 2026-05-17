@@ -4,3 +4,49 @@
   object-fit: cover;
   margin-bottom: 80px;
 }
+
+.head-backgroung {
+  position: relative;
+}
+
+.head-backgroung .info {
+  position: absolute;
+  bottom: 64px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.head-backgroung .info .block {
+  max-width: 576px;
+}
+
+.head-backgroung .info h1 {
+  font-size: 48px;
+  font-weight: 700;
+
+
+  @media screen and (max-width: 400px) {
+    font-size: 24px;
+  }
+}
+
+.head-backgroung .info h1,
+p {
+  margin-bottom: 23px;
+}
+
+.head-backgroung .info button {
+  margin-right: 16px;
+  padding: 17px 24px;
+}
+
+.head-backgroung .info .first-btn {
+  background-color: #DDB7FF;
+  color: #490080;
+}
+
+.head-backgroung .info .second-btn {
+  border: 1px solid #5DE6FF;
+  color: #5DE6FF;
+}

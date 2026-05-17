@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 20px; */
-  border-bottom: 1px solid #ccc;
+
+
   height: 84px;
 }
 
@@ -16,4 +16,30 @@
 .menu ul {
   display: flex;
   gap: 20px;
+}
+
+.menu ul a {
+  position: relative;
+}
+
+a :hover {
+  color: #DDB7FF;
+}
+
+.link-line {
+  height: 1px;
+  width: 0;
+  background-color: #DDB7FF;
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.3s;
+}
+
+.menu ul a:hover .link-line {
+  width: 100%;
+  left: 0;
+  transform: translateX(0);
 }

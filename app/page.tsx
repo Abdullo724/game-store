@@ -5,7 +5,7 @@ import { GamesCaroucel } from "./components/gamesCaroucel";
 export default function Home() {
   return (
     <div className="">
-      <div>
+      <div className="head-backgroung">
         <Image
           src="/images/banners/Background.png"
           width={2000}
@@ -13,12 +13,16 @@ export default function Home() {
           alt=""
           className="banner "
         />
-        <div>
-          <h1>Neon Vanguard: Zero
-            Hour</h1>
-            <p></p>
-            <button></button>
-            <button></button>
+        <div className="info container">
+          <div className="block">
+            <h1 >Neon Vanguard: Zero
+              Hour</h1>
+            <p >Infiltrate the mega-corp spire in the most anticipated cybernetic
+              stealth-action game of the year. Secure your loadout and dive into the
+              neon abyss.</p>
+            <button className="first-btn">PLAY NOW</button>
+            <button className="second-btn">TRAILER</button>
+          </div>
         </div>
       </div>
       <div className="container">
