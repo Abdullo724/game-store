@@ -1,6 +1,8 @@
 import Image from "next/image";
 import "./styles.css";
 import { GamesCaroucel } from "./components/gamesCaroucel";
+import { Users } from "./shered/icons/Users";
+import { GamePad } from "./shered/icons/GamePad";
 
 export default function Home() {
   return (
@@ -28,6 +30,33 @@ export default function Home() {
       <div className="container">
         <GamesCaroucel />
       </div>
+
+      <section className="container features">
+
+        <div>
+          <Users />
+          <p>2.4M+</p>
+          <span>ACTIVE PLAYERS</span>
+        </div>
+
+        <div>
+          <GamePad />
+          <p>1,500+</p>
+           <span>TITLES AVAILABLE</span>
+        </div>
+
+        <div>
+          <h2>Join the Vanguard</h2>
+
+          <p>Join the Vanguard
+            Unlock exclusive rewards, participate in
+            tournaments, and connect with millions.
+            CREATE ACCOUNT</p>
+          <button>CREATE ACCOUNT</button>
+        </div>
+
+      </section>
+
     </div>
   );
 }
